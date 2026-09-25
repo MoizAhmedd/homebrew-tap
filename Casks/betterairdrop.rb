@@ -1,6 +1,6 @@
 cask "betterairdrop" do
-  version "0.3.0-rc.3"
-  sha256 "930d369c5c2b849b1ae5e814173d70987947291bffb8462c65caec289b9a7ba7"
+  version "0.3.0"
+  sha256 "177a387b3cc36691da5253ca077d8bcac6b88d88dc54b8ed6547881aadec436c"
 
   url "https://github.com/MoizAhmedd/betterairdrop/releases/download/v#{version}/BetterAirdrop.zip"
   name "BetterAirdrop"
