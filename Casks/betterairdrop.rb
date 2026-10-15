@@ -1,11 +1,11 @@
 cask "betterairdrop" do
-  version "0.3.1"
-  sha256 "f46a888aac67cb3e3d8b6e1cd1b5eb721611c604ba38e612a4a143a0228412dc"
+  version "0.4.0"
+  sha256 "73e547ced83f41041844bbae7fe3cb00f48e566629b02d448384ea4512880e40"
 
   url "https://github.com/MoizAhmedd/betterairdrop/releases/download/v#{version}/BetterAirdrop.zip"
   name "BetterAirdrop"
   desc "Menu bar app that names AirDropped photos by what's in them"
-  homepage "https://moizahmedd.github.io/betterairdrop/"
+  homepage "https://betterairdrop.com/"
 
   livecheck do
     url :url
@@ -40,5 +40,7 @@ cask "betterairdrop" do
 
     Open it once to start it:
       open "#{appdir}/BetterAirdrop.app"
+    Or set it up from Terminal (it opens the app when done):
+      betterairdrop setup --yes --engine auto
   EOS
 end
